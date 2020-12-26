@@ -99,12 +99,12 @@ Java와 Spring 기반의  학습을 진행 중이며, 이후 관심사로는 JPA
 - JDK 1.8
 - Maven
 - Spring Boot 2.2.2
-- Spring JDBC (Template)
-- Spring Hateoas
-- Spring thymeleaf
+- Spring Boot JDBC (Template)
+- Spring Boot Hateoas
+- Thymeleaf
 - Junit4
 - MariaDB
-- apache poi
+- Apache poi
 
 <br/>
 
@@ -153,8 +153,9 @@ Java와 Spring 기반의  학습을 진행 중이며, 이후 관심사로는 JPA
 **개발 환경**
 - JDK 1.8
 - Spring Boot 2.3.5
+- Spring Boot Validation
+- Spring Boot JDBC
 - Lombok
-- Spring-Validation
 - Junit5
 - Mokito
 - MySQL
