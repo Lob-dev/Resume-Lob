@@ -76,8 +76,11 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 ### **URL을 특정 문자열로 단축하여 제공하는 단축 URL 프로젝트.**
 
 - **21.04.29~(현재)**
-    - 프로젝트를 통한 학습 계획 : Docker Compose, Nginx, Redis의 기본적인 사용법 학습
-    - Spring Boot, Web, Jdbc, JPA, H2 사용
+    - DTO는 Inner Class로 정의하여 하나의 클래스에 응집시키고 필요 없는 클래스 개수를 최소화.
+    - MapStruct를 사용하여 DTO와 Domain Model에서 정의되던 변환 계층 코드를 최소화
+    - Base62 Encoder와 XOR Cipher를 사용하여 Short URL을 생성하여 생성 비용을 최대한 최소화
+    - Redis를 통해 Short URL과 Target URL을 매핑, 캐싱하고 클라이언트에게 값을 반환
+    - Spring Boot, Web, JPA, H2, Docker, Redis 사용
 
 <br/>
 
@@ -202,7 +205,7 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 <br/>
 
-## [신입 개발자의 자바, 스프링 학습 자료](https://www.notion.so/d917555436e84d2a9c9acf454f4446ab)
+## [신입 개발자의 자바, 스프링 학습 자료](https://github.com/Lob-dev/Junior-Back-end-Developer-Concepts)
 
 - 2021.04.29~(진행 중)
     - 오픈 커뮤니티에서 자바 기반의 Back-end 학습에 난항을 겪는 사람들을 도와주기 위해 만듦
