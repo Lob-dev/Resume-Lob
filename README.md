@@ -53,7 +53,7 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 <br/>
 
-## **[Niceday](https://niceday.io/)**
+## **[-------]**
 
 ### **Back-end Developer**
 
@@ -67,11 +67,20 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 <br/>
 
+### **OTT 사용자, 관리자 API 개발 진행**
+
+- JPA, QueryDSL을 이용한 엔티티 구성 및 개발 진행
+- Mapstruct의 @Context 기능을 이용하여 연관 관계 매핑
+- 로컬 개발 환경에서는 Docker를 통해 RabbitMQ, Redis, Mysql를 통해 개발 진행
+- Spring Boot 2.0.x, Flyway, MapStruct, Hibernate, QueryDSL, Mysql, Redis, RabbitMQ 사용
+
+<br/>
+
 # 🛂 Portfolio.
 
 <br/>
 
-# 🚀 [Short Term](https://www.notion.so/Short-Term-e14be590010e45bca66e4a4abc84bd7a).
+# 🚀 [Short Term](https://github.com/Lob-dev/Short-Term).
 
 ### **URL을 특정 문자열로 단축하여 제공하는 단축 URL 프로젝트.**
 
