@@ -164,13 +164,6 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 <br/>
 
-## Library.
-
-- 매핑 라이브러리인 MapStruct 사용 경험
-- Validation Library를 이용한 프론트 요청 값 검증 경험
-
-<br/>
-
 # 👨🏻‍🎓 Education.
 
 <br/>
