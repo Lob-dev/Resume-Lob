@@ -59,7 +59,7 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 - **2021-03-08 ~ (현재)**
 
-### **관리자 CMS API 개발 진행**
+### **관리자 CMS API 개발 진행 및 **
 
 - Swagger를 이용하여 구현한 API에 대해 문서화를 진행
 - Docker를 통해 Local DB를 생성하여 API를 테스트하고 Flyway를 통해 DB 형상 관리
@@ -212,5 +212,12 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 - 2021.04.29~(진행 중)
     - 오픈 커뮤니티에서 자바 기반의 Back-end 학습에 난항을 겪는 사람들을 도와주기 위해 만듦
     - 지속적인 개선, 업데이트를 진행
+
+<br/>
+
+## [JPA Basic Study](https://www.notion.so/JPA-Study-112458920130472894dc7955d8e1113d)
+
+- **2021.05.22~(참여 중)**
+    - Inflearn JPA 기본편 강의 내용을 바탕으로 한 주 학습 진도를 공부하고 리뷰 및 토론 진행
 
 ---
