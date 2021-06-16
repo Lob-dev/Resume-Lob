@@ -63,16 +63,15 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 - Swagger를 이용하여 구현한 API에 대해 문서화를 진행
 - Docker를 통해 Local DB를 생성하여 API를 테스트하고 Flyway를 통해 DB 형상 관리
-- Spring Boot 2.0.x, Flyway, MapStruct, MyBatis, Junit, MSSQL 사용
+- Spring Boot 2.0.x, MyBatis, MSSQL 사용
 
 <br/>
 
 ### **OTT 사용자, 관리자 API 개발 진행**
 
 - JPA, QueryDSL을 이용한 엔티티 구성 및 개발 진행
-- Mapstruct의 @Context 기능을 이용하여 연관 관계 매핑
 - 로컬 개발 환경에서는 Docker를 통해 RabbitMQ, Redis, Mysql를 통해 개발 진행
-- Spring Boot 2.0.x, Flyway, MapStruct, Hibernate, QueryDSL, Mysql, Redis, RabbitMQ 사용
+- Spring Boot 2.0.x, Hibernate, QueryDSL, Mysql 사용
 
 <br/>
 
@@ -89,7 +88,7 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
     - MapStruct를 사용하여 DTO와 Domain Model에서 정의되던 변환 계층 코드를 최소화
     - Base62 Encoder와 XOR Cipher를 사용하여 Short URL을 생성하여 생성 비용을 최대한 최소화
     - Redis를 통해 Short URL과 Target URL을 매핑, 캐싱하고 클라이언트에게 값을 반환
-    - Spring Boot, Web, JPA, H2, Docker, Redis 사용
+    - Spring Boot, Web, JPA, Docker, Redis 사용
 
 <br/>
 
