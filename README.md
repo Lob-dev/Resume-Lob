@@ -31,9 +31,9 @@
 
 <br/>
 
-- **[직접 공부하며 정리한 Java BE 학습 컨텐츠 모음 [링크]](https://github.com/Lob-dev/Junior-Back-end-Developer-Concepts)**
-- [개인 공부 일지 [링크]](https://www.notion.so/Lob-Junior-Developer-be065ebcc7404b17ba74ffc244203912)
-- [**기술적으로 고민한 내용들을 정리하는 블로그 [링크]**](https://lob-dev.tistory.com/)
+- **[사이드로 진행하는 신입 개발자의 자바, 스프링 학습 자료 [링크]](https://github.com/Lob-dev/Junior-Back-end-Developer-Concepts)**
+- **[개인 공부 일지 [링크]](https://www.notion.so/Lob-Junior-Developer-be065ebcc7404b17ba74ffc244203912)**
+- **[기술적으로 고민한 내용들을 정리하는 블로그 [링크]](https://lob-dev.tistory.com/)**
 
 <br/>
 
