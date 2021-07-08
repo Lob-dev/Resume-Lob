@@ -5,6 +5,7 @@
 
 # 🏠 About Me.
 
+**이름**       :   김석현
 
 **나이**       :   24세 (1998.01)   
 
@@ -26,28 +27,16 @@
 
 기술, 프레임워크에 대하여 구현에만 집중하는 것이 아니라 동작 원리와 흐름을 기반으로 학습하고, 좋은 설계와 코드 등을 찾아보며 이전에 작성했던 코드보다 더 나은 것을 만들기 위해 노력하는 개발자입니다.
 
-<br/>
-
-카카오톡, 페이스북, 클럽하우스 등에 존재하는 오픈 커뮤니티들에서 여러 지식과 경험을 듣고 배우며, 여러 문서와 기술 블로그의 Best Practice를 참고하여 성장하고 있습니다.
+카카오톡, 페이스북, 클럽하우스 등에 존재하는 오픈 커뮤니티들에서 여러 지식과 경험을 듣고 배우며, 여러 문서와 기술 블로그의 Best Practice를 참고하여 성장하고 있습니다. JPA, Docker, Database, Kotlin 등 다양한 기술에 관심을 가지고 있으며 우선 순위를 산정하여 차근차근 학습하고 있습니다. 공부한 내용들은 빠짐없이 정리하여 복습하고, 지식공유를 위해 기록해둡니다.
 
 <br/>
 
-JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 관심을 가지고 있으며 우선 순위를 산정하여 차근차근 학습하고 있습니다.
+- **[직접 공부하며 정리한 Java BE 학습 컨텐츠 모음 [링크]](https://github.com/Lob-dev/Junior-Back-end-Developer-Concepts)**
+- [개인 공부 일지 [링크]](https://www.notion.so/Lob-Junior-Developer-be065ebcc7404b17ba74ffc244203912)
+- [**기술적으로 고민한 내용들을 정리하는 블로그 [링크]**](https://lob-dev.tistory.com/)
 
 <br/>
 
-# 🔗 Links.
-
-
-## **[GitHub](https://github.com/Lob-dev)**
-
-- **개인 프로젝트, 학습 진행**
-
-## **[Blog](https://lob-dev.tistory.com/)**
-
-- **개인 학습, 문제 해결 등 포스팅 진행**
-
-<br/>
 
 # 👨🏻‍💼 Work Experience.
 
@@ -83,12 +72,11 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 ### **URL을 특정 문자열로 단축하여 제공하는 단축 URL 프로젝트.**
 
-- **21.04.29~(현재)**
-    - DTO는 Inner Class로 정의하여 하나의 클래스에 응집시키고 필요 없는 클래스 개수를 최소화.
-    - MapStruct를 사용하여 DTO와 Domain Model에서 정의되던 변환 계층 코드를 최소화
-    - Base62 Encoder와 XOR Cipher를 사용하여 Short URL을 생성하여 생성 비용을 최대한 최소화
-    - Redis를 통해 Short URL과 Target URL을 매핑, 캐싱하고 클라이언트에게 값을 반환
-    - Spring Boot, Web, JPA, Docker, Redis 사용
+- **21.04.29 ~ 21.05.22**
+    - Base62 Encoder와 XOR Cipher를 사용하여 Short URL을 생성
+    - Redis를 통해 Short URL과 Target URL을 매핑하여 캐싱하고 클라이언트에게 값을 반환
+    - TestContainers를 이용하여 실제 운영 환경과 최대한 유사하게 통합 테스트를 구성 및 실행
+    - Spring Boot, JPA, Docker, TestContainers, Redis 사용
 
 <br/>
 
@@ -120,33 +108,30 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 ## Backend Engineering.
 
-- 현업을 포함 3개의 프로젝트 개발 경험
-- Spring(Java) MVC, Boot, JPA 기반 Backend API 개발 경험
-- Hibernate, Mybatis, Procedure 사용 경험
+- 현업을 포함 4개의 프로젝트 개발 경험
+- Spring framework, JPA or Query 기반 Backend API 개발 경험
 
 <br/>
 
 ## CI & CD & Devops.
 
-- SFTP를 통한 수동 배포 방식에서 Jenkins의 Git 연동을 통한 부분적인 자동화 경험
-- NCP Server와 AWS EC2를 통한 인스턴스 생성 및 연동, 배포 경험
-- Docker를 통한 컨테이너 생성 및 로컬 DB 구성 및 사용 경험
-- Flyway를 통한 Table Schema 관리 및 SQL 파일 마이그레이션 경험
+- SFTP를 통한 수동 배포 방식에서 Jenkins의 Git Branch 연동을 이용한 자동화 배포 경험
+- NCP Server와 AWS EC2 인스턴스 생성 및 WAS - DB 간의 연동 경험
+- Docker를 통한 인스턴스 구성 *경험*
 
 <br/>
 
 ## Database & SQL.
 
-- MySQL과 MSSQL 구성, 운영 경험
-- 쿼리, Stored Procedure 작성 경험
-- Flyway를 통한 DB 형상 관리 경험
+- MySQL과 MSSQL 사용 경험
+- Flyway를 통한 Table Schema 버전 관리 경험
 
 <br/>
 
 ## Testing.
 
-- Junit과 MockMvc를 이용한 객체 생성, 슬라이싱, 통합 테스트 작성 경험
-- Mokito를 통한 외부 의존성 모킹 테스트 작성 경험
+- Junit을 이용한 테스트 작성 경험
+- TestContainers를 통한 통합 테스트 환경 구성 및 테스트 경험
 
 <br/>
 
@@ -159,7 +144,7 @@ JPA, Kafka, Docker, Docker Compose, DDD와 MSA, Kotlin 등 다양한 기술에 �
 
 ## Documentation.
 
-- Swagger를 이용한 API 문서화 경험
+- Swagger, Rest Docs를 이용한 API 문서화 경험
 
 <br/>
 
